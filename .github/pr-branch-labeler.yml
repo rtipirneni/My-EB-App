@@ -1,2 +1,2 @@
-release: # Apply label "release" if base matches "release/*"
+master: # Apply label "release" if base matches "release/*"
   base: "master*"
