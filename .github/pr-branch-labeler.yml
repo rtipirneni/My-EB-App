@@ -1,0 +1,2 @@
+release: # Apply label "release" if base matches "release/*"
+  base: "release/*"
