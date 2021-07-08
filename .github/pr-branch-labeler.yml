@@ -1,2 +1,4 @@
 master: # Apply label "release" if base matches "release/*"
   base: "master*"
+From-Dev:
+  head: "develop*"
