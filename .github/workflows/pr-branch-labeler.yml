@@ -8,6 +8,6 @@ jobs:
     steps:
     - name: Label PRs
       #if: github.event.action == 'opened' # Only run the action when the PR was first opened
-      uses: TheCleric/pr-branch-labeler@v3.1.1
+      uses: rtipirneni/branch-labeler@v1.1
       with:
         repo-token: ${{ secrets.PR_LABELER_TOKEN }}
